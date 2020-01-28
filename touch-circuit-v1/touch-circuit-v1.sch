@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:touch-circuit-v1-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -27,12 +28,12 @@ $EndComp
 $Comp
 L Device:Opamp_Dual_Generic U1
 U 3 1 5E3073DB
-P 3050 3350
-F 0 "U1" H 3008 3396 50  0000 L CNN
-F 1 "Opamp_Dual_Generic" H 3008 3305 50  0000 L CNN
-F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 3050 3350 50  0001 C CNN
-F 3 "~" H 3050 3350 50  0001 C CNN
-	3    3050 3350
+P 3050 3650
+F 0 "U1" H 3008 3696 50  0000 L CNN
+F 1 "Opamp_Dual_Generic" H 3008 3605 50  0000 L CNN
+F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 3050 3650 50  0001 C CNN
+F 3 "~" H 3050 3650 50  0001 C CNN
+	3    3050 3650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -153,10 +154,6 @@ Wire Wire Line
 	4450 3250 4450 2950
 Connection ~ 4450 3250
 Wire Wire Line
-	4900 3050 4000 3050
-Wire Wire Line
-	4000 3050 4000 3350
-Wire Wire Line
 	5800 3550 5800 3650
 Wire Wire Line
 	5800 3650 6300 3650
@@ -212,9 +209,9 @@ Wire Wire Line
 	5500 3150 5800 3150
 Connection ~ 5800 3150
 Wire Wire Line
-	2950 2550 2950 3050
+	2950 2550 2950 3350
 Wire Wire Line
-	2950 3650 2950 4250
+	2950 3950 2950 4250
 Wire Wire Line
 	2950 4250 4000 4250
 Connection ~ 4000 4250
@@ -297,4 +294,48 @@ F 3 "~" H 2050 4250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2050 4250 2150 4250
+Text Label 3750 2800 2    50   ~ 0
+skin
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5E30C6B3
+P 3650 3050
+F 0 "J1" H 3730 2950 50  0000 L CNN
+F 1 "Conn_01x02" H 3730 3041 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3650 3050 50  0001 C CNN
+F 3 "~" H 3650 3050 50  0001 C CNN
+	1    3650 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5E312800
+P 3650 3300
+F 0 "J2" H 3730 3200 50  0000 L CNN
+F 1 "Conn_01x02" H 3730 3291 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3650 3300 50  0001 C CNN
+F 3 "~" H 3650 3300 50  0001 C CNN
+	1    3650 3300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4900 3050 4000 3050
+Wire Wire Line
+	4000 3050 4000 3350
+Connection ~ 3850 3050
+Wire Wire Line
+	3850 3050 3850 2950
+Connection ~ 3850 3200
+Wire Wire Line
+	3850 3200 3850 3050
+Wire Wire Line
+	3850 3200 3850 3300
+Wire Wire Line
+	3750 2800 3850 2800
+Wire Wire Line
+	3850 2800 3850 2950
+Connection ~ 3850 2950
+Wire Wire Line
+	3850 3050 4000 3050
+Connection ~ 4000 3050
 $EndSCHEMATC
