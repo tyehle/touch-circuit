@@ -302,7 +302,7 @@ U 1 1 5E30C6B3
 P 3650 3050
 F 0 "J1" H 3730 2950 50  0000 L CNN
 F 1 "Conn_01x02" H 3730 3041 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3650 3050 50  0001 C CNN
+F 2 "touch-circuit-v1:PinHeader_1x02_P2.54mm_Vertical_nosilk" H 3650 3050 50  0001 C CNN
 F 3 "~" H 3650 3050 50  0001 C CNN
 	1    3650 3050
 	-1   0    0    1   
@@ -313,7 +313,7 @@ U 1 1 5E312800
 P 3650 3300
 F 0 "J2" H 3730 3200 50  0000 L CNN
 F 1 "Conn_01x02" H 3730 3291 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3650 3300 50  0001 C CNN
+F 2 "touch-circuit-v1:PinHeader_1x02_P2.54mm_Vertical_nosilk" H 3650 3300 50  0001 C CNN
 F 3 "~" H 3650 3300 50  0001 C CNN
 	1    3650 3300
 	-1   0    0    1   
