@@ -1,6 +1,6 @@
 # Touch Circuit v1
 
-<img src="touch-circuit-v1/svg/top.svg" alt="board render" width="30%"/> <img src="touch-circuit-v1/svg/bottom.svg" alt="board render" width="30%"/>
+<img src="svg/top.svg" alt="board render" width="30%"/> <img src="svg/bottom.svg" alt="board render" width="30%"/>
 
 # Schematic
 
