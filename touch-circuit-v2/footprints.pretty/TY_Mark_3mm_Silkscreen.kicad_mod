@@ -1,0 +1,18 @@
+(module TY_Mark_3mm_Silkscreen (layer F.Cu) (tedit 5EEC6A36)
+  (fp_text reference REF** (at 0 -2.8 -180) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value TY_Mark_3mm_Silkscreen (at 0 2.2 -180) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_poly (pts (xy -0.65 -1.6) (xy -0.45 -1.9) (xy -0.45 -1.7) (xy -0.5 -1.7)) (layer F.SilkS) (width 0.08))
+  (fp_arc (start 0 -0.15) (end -0.5 -0.15) (angle -180) (layer F.SilkS) (width 0.18))
+  (fp_arc (start 0 1) (end -0.5 1) (angle -180) (layer F.SilkS) (width 0.18))
+  (fp_line (start 0.5 -0.25) (end 0.5 1) (layer F.SilkS) (width 0.18))
+  (fp_line (start -0.5 -1.7) (end -0.5 -0.15) (layer F.SilkS) (width 0.18))
+  (fp_line (start -1.4 -1.125) (end 0.35 -1.125) (layer F.SilkS) (width 0.18))
+  (fp_poly (pts (xy 0.35 -0.15) (xy 0.55 -0.45) (xy 0.55 -0.25) (xy 0.5 -0.25)) (layer F.SilkS) (width 0.08))
+  (fp_poly (pts (xy -0.625 1.1) (xy -0.425 0.8) (xy -0.45 1) (xy -0.5 1)) (layer F.SilkS) (width 0.08))
+  (fp_poly (pts (xy 0.425 -1.05) (xy 0.5 -1.175) (xy 0.275 -1.175) (xy 0.275 -1.125)) (layer F.SilkS) (width 0.08))
+  (fp_poly (pts (xy -1.075 -0.85) (xy -1.6 -1.175) (xy -1.35 -1.175) (xy -1.175 -0.925)) (layer F.SilkS) (width 0.08))
+)
